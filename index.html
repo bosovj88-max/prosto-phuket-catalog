@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Prosto Phuket Catalog</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="brand">
+      <div class="brand__title">Prosto Phuket Catalog</div>
+      <div class="brand__subtitle">Info-only showcase • No prices • No contacts</div>
+    </div>
+
+    <div class="controls">
+      <nav class="tabs" id="tabs"></nav>
+
+      <div class="lang">
+        <button class="chip is-active" data-lang="ru">RU</button>
+        <button class="chip" data-lang="en">EN</button>
+        <button class="chip" data-lang="uk">UKR</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="listView" class="grid"></section>
+
+    <section id="detailView" class="detail is-hidden">
+      <button class="back" id="backBtn">← Back</button>
+
+      <div class="detail__wrap">
+        <div class="gallery">
+          <div class="gallery__main">
+            <img id="mainImg" alt="" />
+          </div>
+          <div class="gallery__thumbs" id="thumbs"></div>
+        </div>
+
+        <article class="card">
+          <h1 class="card__title" id="dTitle"></h1>
+          <div class="meta" id="dMeta"></div>
+          <div class="card__section">
+            <div class="card__text" id="dText"></div>
+          </div>
+          <div class="card__section">
+            <div class="card__h">Specs</div>
+            <ul class="specs" id="dSpecs"></ul>
+          </div>
+
+          <div class="note" id="dNote"></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>© Prosto Phuket • Catalog</div>
+  </footer>
+
+  <script src="./data.js"></script>
+</body>
+</html>
