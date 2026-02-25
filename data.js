@@ -1,3 +1,4 @@
+Евгений Босов, [25 февр. 2026 г., 22:50:26]:
 // ====== 1) НАСТРОЙКИ КАТЕГОРИЙ ======
 const CATEGORIES = [
   { id: "auto",  emoji:"🚗", label: {ru:"Авто", en:"Auto", uk:"Авто"} },
@@ -14,12 +15,12 @@ const ITEMS = [
   {
     id: "mg5-2024",
     category: "auto",
-    cover: "https://img.pcauto.com/model/images/modelPic/my/2024/08/712/440909732_1724393151285.jpg",
+    cover: "PASTE_IMAGE_URL_HERE",
     gallery: [
-      "https://img.pcauto.com/model/images/modelPic/my/2024/08/712/440909732_1724393151285.jpg",
-      "https://img.pcauto.com/model/images/modelPic/my/2024/08/712/440909732_1724393151285.jpg",
-      "https://img.pcauto.com/model/images/modelPic/my/2024/08/712/440909732_1724393151285.jpg",
-      "https://img.pcauto.com/model/images/modelPic/my/2024/08/712/440909732_1724393151285.jpg",
+      "PASTE_IMAGE_URL_HERE",
+      "PASTE_IMAGE_URL_HERE",
+      "PASTE_IMAGE_URL_HERE",
+      "PASTE_IMAGE_URL_HERE",
     ],
     meta: { ru:"Sedan • 2024", en:"Sedan • 2024", uk:"Sedan • 2024" },
     title: { ru:"MG5 / 2024", en:"MG5 / 2024", uk:"MG5 / 2024" },
