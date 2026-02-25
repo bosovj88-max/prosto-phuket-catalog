@@ -15,12 +15,12 @@ const ITEMS = [
   {
     id: "mg5-2024",
     category: "auto",
-    cover: "PASTE_IMAGE_URL_HERE",
+    cover: "https://www.zigwheels.my/new-cars/mg/5/images",
     gallery: [
-      "PASTE_IMAGE_URL_HERE",
-      "PASTE_IMAGE_URL_HERE",
-      "PASTE_IMAGE_URL_HERE",
-      "PASTE_IMAGE_URL_HERE",
+      "https://www.pcauto.com/my/cars/mg/5/images",
+      "https://www.pcauto.com/my/cars/mg/5/images",
+      "https://www.pcauto.com/my/cars/mg/5/images",
+      "https://www.pcauto.com/my/cars/mg/5/images",
     ],
     meta: { ru:"Sedan • 2024", en:"Sedan • 2024", uk:"Sedan • 2024" },
     title: { ru:"MG5 / 2024", en:"MG5 / 2024", uk:"MG5 / 2024" },
